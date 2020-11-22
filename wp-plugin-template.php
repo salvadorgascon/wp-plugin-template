@@ -12,3 +12,8 @@
  * Author:          Salvador Gascon
  * Author URI:      https://github.com/salvadorgascon
  */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+  die( 'Access denied.' );
+}
